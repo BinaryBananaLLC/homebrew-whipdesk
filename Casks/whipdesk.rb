@@ -1,9 +1,9 @@
 cask "whipdesk" do
   arch arm: "arm64", intel: "x64"
 
-  version "1.0.1"
-  sha256 arm:   "4126075ab88f9b44365be03490c66727bd62e7e586dccfd462fab2ff20e5ffbb",
-         intel: "3fcca9fcd61315872fbb59d6fc8a5b5fac77732232def8366b3671462440cf9c"
+  version "1.0.2"
+  sha256 arm:   "9f449a2f52b7eafc25e05fdaf5a340a33f972e379a9fec1af379736b115ec9ce",
+         intel: "be4e8f72405a35a8ac40fe9f0b9a16cbb5e8141f1683640859170fe3d0284c6e"
 
   url "https://github.com/BinaryBananaLLC/WhipDesk/releases/download/v#{version}/whipdesk-#{version}-macos-#{arch}.pkg"
   name "WhipDesk"
